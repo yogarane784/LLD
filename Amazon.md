@@ -41,8 +41,7 @@ class ProductVariations {
   private long id;
   private String name;
   private Strong description;
-  private Map<> color;
-  private String 
+  private Map<String, List<String>> attributes; 
 }
 ``` 
 
@@ -54,4 +53,21 @@ String Category {
   private Category subCategories[];
 }
 ```
+
+```
+class Order {
+  private long id;
+  private long userId;
+  private long productId;
+  private long placedAt;
+  private Double cost;
+  private Payment payment;
+}
+```
+
+```
+class 
+```
+
+
 
